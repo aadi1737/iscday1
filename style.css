@@ -1,0 +1,16 @@
+.container{
+    height: 300px;
+    width: 500px;
+    background:linear-gradient(
+        top bottom,
+        red,
+        green
+    );
+    border: 2px solid black;
+}
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}

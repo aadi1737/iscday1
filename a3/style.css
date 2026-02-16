@@ -1,0 +1,24 @@
+.rectangle{
+    background-image: url(3.jpg);
+    width: 500px;
+    height: 500px;
+    animation: roatate 3s infinite linear ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+@keyframes roatate{
+    from{
+        transform: rotatey(0deg);
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+}

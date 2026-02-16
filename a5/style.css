@@ -1,0 +1,23 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+div{
+    display: flex;
+}
+
+#front{
+    position: absolute;
+    left: 33.5%;
+    z-index: 10;
+    opacity: 0.5;
+}
+#back{
+    position: relative;
+}

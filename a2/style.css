@@ -1,0 +1,71 @@
+/* body{
+    background-image: url(1.png);
+    object-fit:contain;
+} */
+ #bg{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+ }
+ #moon{
+    display: none;
+ }
+ .day{
+    position: relative;
+    left: 10px;
+    bottom: 50px;
+    background-color: white;
+ }
+ 
+ .night{
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+    left: 90%;
+}
+
+#sun{
+    position: absolute;
+    left: 40%;
+}
+
+
+.godown{
+    animation: godown 2s 1 linear;
+}
+
+.goup{
+    animation: goup 2s 1 linear;
+}
+
+.show{
+    display: block;
+}
+
+#cloud{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+
+@keyframes godown {
+    from{
+        /* transform: rotateZ(0deg); */
+        transform:translateY(0)
+    }
+    to{
+        transform:translateY(500px)
+
+    }
+}
+
+@keyframes goup {
+    from{
+        /* transform: rotateZ(0deg); */
+        transform:translateX(0)
+    }
+    to{
+        transform:translateX(500px)
+
+    }
+}
